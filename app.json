@@ -1,0 +1,7 @@
+{
+  "name": "UnitConverter",
+  "displayName": "UnitConverter",
+  "androidStatusBar": {
+    "translucent": false
+  }
+}

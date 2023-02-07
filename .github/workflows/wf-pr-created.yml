@@ -1,6 +1,6 @@
 name : Workflow when PR is created
 on : 
-  pull_request:
+  #pull_request:
   workflow_call:
 jobs:
   my-job:

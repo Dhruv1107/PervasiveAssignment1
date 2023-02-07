@@ -1,7 +1,7 @@
 name : Calling already made workflows
 on: 
   pull_request: #for now, need to check another event or something else like that later
-    types: reopened
+    types: [reopened,opened]
 jobs:
   call-pr-checker:
     uses: ./.github/workflows/wf-pr-created.yml
